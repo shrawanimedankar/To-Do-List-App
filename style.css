@@ -1,25 +1,33 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 37rem;
-    background-color: pink;
-    font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 37rem;
+  background-color: pink;
+  font-family: Arial, sans-serif;
 }
 
 .container {
-    border: 2px solid #000000;
-    border-radius: 10px;
-    padding: 20px 40px;
-    background: white;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  padding: 20px 40px;
+  background: white;
 }
 
-.delete{
+.heading {
+  font-size: 3rem;
+  color: darkblue;
+  font-weight: 800;
+  font-style: normal;
+  text-align: center;
+}
+
+.delete {
   background-color: red;
   color: white;
 }
 
-.btn{
+.btn {
   background-color: rgb(255, 0, 251);
   color: rgb(0, 0, 0);
   font-size: 1.3rem;
@@ -27,27 +35,10 @@ body {
   cursor: pointer;
 }
 
-input{
+input {
   font-size: 1.3rem;
 }
 
-ul{
+ul {
   font-size: 1.2rem;
-}
-
-.h{
-  font-size: 3rem;
-  color: darkblue;
-  font-weight: 800;
-  font-style: normal;
-
-}
-
-.completed {
-    text-decoration: line-through;
-    color: grey;
-}
-
-.check {
-    margin-right: 3px;
 }
